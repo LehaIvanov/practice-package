@@ -1,5 +1,5 @@
 export default () => {
-    const { greeting, username } = { greeting: "Hello", username: "Chuck Norris" };
+  const { greeting, username } = { greeting: 'Hello', username: 'Chuck Norris' };
 
-    console.log(`${greeting}, ${username}!`);
+  console.log(`${greeting}, ${username}!`);
 };

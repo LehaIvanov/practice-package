@@ -4,7 +4,7 @@ export default () => ({
   entry: './src/index.js',
   output: {
     filename: 'app.js',
-    path: path.resolve(__dirname, 'dist')
+    path: path.resolve(__dirname, 'dist'),
   },
   module: {
     rules: [
@@ -12,9 +12,9 @@ export default () => ({
         test: /\.js$/,
         /* exclude: /(node_modules)/, */
         use: {
-          loader: 'babel-loader'
-        }
-      }
-    ]
-  }
+          loader: 'babel-loader',
+        },
+      },
+    ],
+  },
 });
